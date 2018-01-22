@@ -148,7 +148,7 @@ int main(void)
 			if(i!=s)   // no need to print a path for the soource as it contains only one point
 			{
 			
-				printf("%d<-",i);  // each 'i' is actually the desitantion...
+				printf("%d<-",i);  // each 'i', acting as a vertex, is actually the desitantion...
 				temp=p[i];   // find its predecessor
 				while(temp!=s)   // keep on finding corresponding predecessors untill source 's' is reached
 				{
