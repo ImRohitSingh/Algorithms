@@ -6,7 +6,7 @@
 #define NIL -1
 
 /*BELLMAN-FORD:
-Defintion:	The Bellman–Ford algorithm is an algorithm that computes 
+Defintion:	The Bellmanâ€“Ford algorithm is an algorithm that computes 
 			shortest paths from a single source vertex to all of the other vertices in a weighted digraph.
 			
 Variable Description:
@@ -49,7 +49,8 @@ struct edge
 	int weight;
 };  // structure representing a directed edge and its corresponding weight
 
-typedef struct edge EDGE;   // this renaming though is useless, still it is a good practice to rename bigger struecture names with something shorter
+typedef struct edge EDGE;   /* this renaming though is useless, still it is a good practice to rename
+					bigger structure names with something shorter  */
 
 int main(void)
 {
