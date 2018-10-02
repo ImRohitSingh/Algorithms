@@ -7,7 +7,6 @@ int main(void)
 /* For vertex number, start with 0 ( not 1 ) 
 	Note: In case of multiple matches for a node, the lower one gets pushed first */
 {
-	NODEPTR stack;
 	int **a, n, start;
 	
 	printf("\nEnter number of vertices: \n");
