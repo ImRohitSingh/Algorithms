@@ -21,7 +21,7 @@ int main(void)
 		
 	a = createMat(n,n);  // function call to create space for a 2-D array and intialize it with 0
 	populateMat(a,n,n); // function call to populate 2-D array
-	displayMat(a,n,n);  // function to display 2-D array
+	displayMat(a,n,n);  // function call to display 2-D array
 		
 	printf("\nEnter starting vertex (or node): \n");
 	scanf("%d",&start);
