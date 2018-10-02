@@ -13,9 +13,9 @@ int main(void)
 	scanf("%d",&n);
 	
 	
-	if(n <= 0) // to few vertices
+	if(n <= 0) // too few vertices
 	{
-		printf("\nTo few vertices!\n");
+		printf("\nToo few vertices!\n");
 		exit(0);
 	}
 		
@@ -37,4 +37,3 @@ int main(void)
 	
 	return 0;
 }
-
